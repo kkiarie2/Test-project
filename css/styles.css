@@ -1,7 +1,11 @@
+body {  font-family: 'Raleway', sans-serif;}
+
+
 .pagecontainer {
 
   position: relative;
   min-height: 100vh;
+  font-family: 'Raleway' sans-serif; 
 
 }
 
@@ -10,14 +14,6 @@
   padding-top: 200px;
   /*header and footer */
 }
-
-i {
-  color: #0065FC;
-  border-radius: 50px;
-  border: 4px solid ghostwhite;
-  background-color: #DEEBFF;
-}
-
 
 
 .header {
@@ -28,21 +24,19 @@ i {
   top: 0;
   list-style-type: none;
   display: flex;
-  font-size: 30px;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  padding: 20px 10px 0px 10px;
+  font-size: 25px;
+  flex-direction: row;
+  justify-content: left;
+  padding: 5px 10px 0px 10px;
 
 }
 
 
 
-
-
-
 .logopic {
 
-  height: 120px;
+  height: 60px;
+ 
 
 
 
@@ -50,11 +44,13 @@ i {
 
 .logo {
 
-  display: flex;
   top: 0px;
-  width: 15%;
+  width: 10%;
   order: 1;
   flex: 1 1 1;
+  margin-right: auto;
+
+
 
 
 
@@ -63,27 +59,26 @@ i {
 
 
 .acc {
-  display: flex;
-  width: 15%;
+  width: 10%;
   order: 2;
+ margin-right: 10%;
+ 
 
 
 }
 
 .sign {
-  display: flex;
-  width: 15%;
-  order: 3;
+  width: 10%;
+  order: 4;
 
 
 
 }
 
 .acts {
-  display: flex;
-  width: 15%;
-  order: 4;
-
+  width: 10%;
+  order: 3;
+  margin-right: 10%;
 
 }
 
@@ -91,7 +86,7 @@ i {
 
 a:link {
 
-  color: mediumblue;
+  color: #0065FC;
 
 }
 
@@ -103,7 +98,8 @@ a:hover {
 
 a:active {
 
-  color: mediumblue;
+  color: #0065FC;;
+  text-decoration: overline #0065FC;
 }
 
 a:visited {
@@ -121,23 +117,27 @@ a:visited {
 
   border: 1px solid gainsboro;
   border-radius: 25px;
-  background-color: white;
   display: inline;
+  height: 30px;
+  margin-left: 20px;
 
 
 
 }
 
-.fbuttontext1 {
+.searchbuttontext {
   background-color: blue;
   color: white;
   height: 28.2px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  font-weight: bold;
 
 
 }
-
+.fbuttontext{
+  font-weight: bold;
+}
 
 .searchdiv {
   display: flex;
@@ -150,6 +150,7 @@ a:visited {
 .searchbutton {
 
   border: none;
+  margin-bottom: 20px;
 
 }
 
@@ -164,21 +165,30 @@ a:visited {
 .bticon {
 
   background-color: #4991fc;
-  border-radius: 50px;
-  border: 5px solid rgb(169, 199, 233);
-  z-index: 100;
+  padding: 7px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0px;
+  justify-content: left;
+  display: inline-block;
+  left: -10px;
+  line-height: 1.2;
+  top: -2px;
+
+  
+  
+
 
 }
 
+.bticon i{
 
-
-i {
-
-  border: 2px solid ghostwhite;
+  color: #0065FC;
+  width: 17px;
+  font-weight: bold;
+  
+  
 }
-
-
-
 
 
 
@@ -207,7 +217,7 @@ i {
 .marseille {
   display: flex;
   flex-wrap: wrap;
-  width: 75%;
+  width: 70%;
   padding-top: 50px;
   padding-left: 10px;
   display: inline-block;
@@ -244,7 +254,7 @@ i {
   border: 10px solid ghostwhite;
   border-radius: 35px;
   display: flex;
-  width: 300px;
+  width: 250px;
   padding-bottom: 35px;
   display: inline-block;
   row-gap: 4rem;
@@ -260,6 +270,8 @@ i {
 .imagez img {
 
   border-radius: 25px;
+  width: 250px;
+  height: 180px;
 
 }
 
@@ -281,7 +293,7 @@ i {
   display: flex;
   flex-direction: column;
   background-color: #eee;
-  width: 25%;
+  width: 30%;
   padding-bottom: 30px;
   padding-top: 30px;
   align-items: center;
@@ -294,24 +306,32 @@ i {
 
 
 .imagezp {
-  width: 300px;
+  width: 85%;
   border: 10px solid ghostwhite;
   border-radius: 35px;
   flex: 1 0 1;
   margin-bottom: 20px;
-
+  display: flex;
+  flex-direction: row;
 
 
 
 }
 
+
+
 .imagezp1 {
 
-  width: 300px;
+  width: 85%;
   border-radius: 35px;
   flex: 1 0 1;
   margin-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
   align-content: center;
+  border: 10px solid ghostwhite;
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -320,6 +340,9 @@ i {
 
   border-radius: 25px;
   flex: 1 0 1;
+  width: 150px;
+  height: 180px;
+  display: inline;
 
 }
 
@@ -332,10 +355,33 @@ i {
 
   border-radius: 25px;
   flex: 1 0 1;
+  width: 150px;
+  height: 180px;
+  display: inline;
 
 }
 
 
+.popular .desc {
+
+  display: inline;
+  font-size: 0.8em;
+  text-align: left;
+  margin-left: 15px;
+  
+
+
+
+}
+
+
+#hotel{
+  font-weight:  bold;
+}
+
+.accommodation i{
+color: #0065FC;
+}
 
 .activities {
   display: flex;
@@ -379,7 +425,9 @@ i {
 
 }
 
-
+.activities .desc{
+  font-weight: bold;
+}
 
 
 .column2 {
@@ -438,9 +486,12 @@ i {
 .fcontainer {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
   width: 90%;
+  height: 200px;
+  flex-wrap: nowrap;
+  display: inline;
+  justify-content: space-around;
+
 
 
 
@@ -452,17 +503,41 @@ i {
 ul {
 
   list-style-type: none;
-  font: Raleway bold 25px;
   line-height: 2;
 }
 
 li {
 
-  font: Raleway bold 4px;
-  line-height: 2;
+  line-height: 1.5;
+}
+
+.left{
+height: 200px;
+display: inline-block;
+width: 400px;
+font-size: 0.8em;
+
+
+}
+
+.middle{
+
+  height: 200px;
+  display: inline-block;
+  width: 400px;
+  font-size: 0.8em;
+
 }
 
 
+.assistance{
+
+  height: 200px;
+  display: inline-block;
+  width: 400px;
+  font-size: 0.8em;
+  
+}
 
 
 
@@ -920,4 +995,20 @@ li {
 
 
 
+}
+
+@media screen and (max-width : 200px){
+  body{
+    background-color: red;
+  }
+}
+@media screen and (max-width : 600px){
+  body{
+    background-color: blue;
+  }
+}
+@media screen and ( max-width : 700px) {
+  body{
+    background-color: green;
+  }
 }
