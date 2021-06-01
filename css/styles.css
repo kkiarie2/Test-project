@@ -161,6 +161,15 @@ a:visited {
 
 }
 
+.mapicon{
+background-color: #EEE;
+
+}
+
+
+
+
+
 
 .bticon {
 
@@ -190,6 +199,10 @@ a:visited {
   
 }
 
+.moreicon i{
+  font: #0065FC ;
+  background-color: white;
+}
 
 
 
@@ -254,8 +267,8 @@ a:visited {
   border: 10px solid ghostwhite;
   border-radius: 35px;
   display: flex;
-  width: 250px;
-  padding-bottom: 35px;
+  width: 280px;
+  height: 360px;
   display: inline-block;
   row-gap: 4rem;
   align-items: center;
@@ -270,8 +283,8 @@ a:visited {
 .imagez img {
 
   border-radius: 25px;
-  width: 250px;
-  height: 180px;
+  width: 100%;
+  height: 60%;
 
 }
 
@@ -303,80 +316,68 @@ a:visited {
 
 }
 
+.popheadings i{
+  color: black;
+}
+
+
 
 
 .imagezp {
-  width: 85%;
-  border: 10px solid ghostwhite;
-  border-radius: 35px;
-  flex: 1 0 1;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-
+display: flex;
+flex-direction: row;
+width: 90%;
+height: 200px;
+border: 10px solid ghostwhite;
+border-radius: 35px;
+margin-bottom: 20px;
+margin-top: 20px;
 
 
 }
 
 
 
-.imagezp1 {
-
-  width: 85%;
-  border-radius: 35px;
-  flex: 1 0 1;
-  margin-bottom: 20px;
+.popinside{
+  width: 50%;
+  height: 100%;
   padding-left: 0px;
   padding-right: 0px;
-  align-content: center;
-  border: 10px solid ghostwhite;
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
 }
 
+.popinside img{ 
 
-
-.imagezp1 img {
-
-  border-radius: 25px;
-  flex: 1 0 1;
-  width: 150px;
-  height: 180px;
-  display: inline;
-
-}
-
-
-
-
-
-
-.imagezp img {
-
-  border-radius: 25px;
-  flex: 1 0 1;
-  width: 150px;
-  height: 180px;
-  display: inline;
-
-}
-
-
-.popular .desc {
-
-  display: inline;
-  font-size: 0.8em;
-  text-align: left;
-  margin-left: 15px;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
   
+  
+  }
 
 
+.descpop {
+
+  font-size: 0.8em;
+  width: 50%;
+  height: 90%;
+  padding-bottom: 0px;
+  display: inline-block;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
 
 }
+
 
 
 #hotel{
   font-weight:  bold;
+}
+
+#starsp {
+margin-top:auto;
 }
 
 .accommodation i{
@@ -390,8 +391,7 @@ color: #0065FC;
   justify-content: start;
   align-items: center;
   align-content: flex-start;
-  column-gap: 2%;
-  row-gap: 2%;
+  row-gap: 1%;
   flex: 1 0 1;
   margin-top: 20px;
   padding-bottom: 10px;
@@ -559,24 +559,36 @@ font-size: 0.8em;
   }
 
   .header {
-    display: block;
+  
     height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    
   }
 
   .header div {
 
-
+    width: 50%;
+    flex-wrap: wrap;
     margin-bottom: 20px;
 
   }
+  .logo {order: 1;}
 
-
+  .sign{ 
+    order: 2; 
+  }
+    .acts{ order: 4;}
+    .acc{ order: 3;}
 
 
   .accommodation {
     display: block;
 
   }
+
+
 
 
   .marseille {
@@ -997,18 +1009,3 @@ font-size: 0.8em;
 
 }
 
-@media screen and (max-width : 200px){
-  body{
-    background-color: red;
-  }
-}
-@media screen and (max-width : 600px){
-  body{
-    background-color: blue;
-  }
-}
-@media screen and ( max-width : 700px) {
-  body{
-    background-color: green;
-  }
-}
