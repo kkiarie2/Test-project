@@ -6,12 +6,12 @@ body {  font-family: 'Raleway', sans-serif;}
   position: relative;
   min-height: 100vh;
   font-family: 'Raleway' sans-serif; 
+  margin-right: 5px;
 
 
 }
 
 .contentwrap {
-  padding-bottom: 200px;
   padding-top: 200px;
   /*header and footer */
 }
@@ -146,6 +146,7 @@ a:visited {
   display: flex;
   display: inline-block;
   font-weight: bold;
+  
 
 
 }
@@ -320,11 +321,14 @@ background-color: #EEE;
 
 }
 
-.popheadings i{
+.popheadingsicon{
   color: black;
+  margin-left: auto;
 }
 
-
+.popheadings{
+  text-align: center;
+}
 
 
 .imagezp {
@@ -391,39 +395,67 @@ color: #0065FC;
 .activities {
   display: flex;
   width: 100%;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-items: center;
+  height: auto;
+  justify-items: center;
   align-content: flex-start;
   row-gap: 1%;
-  flex: 1 0 1;
   margin-top: 20px;
-  padding-bottom: 10px;
+  margin-bottom: 5px;
   flex-direction: row;
 
 
 
 }
+
 .actimagez2, .actimagez3, .actimagez5, .actimagez6{
 
-  margin-bottom: 20px;
+  
+  
   width: 330px;
-  height: 200px;
+  height: 180px;
+  margin-left: 1%;
+  margin-right: 1%;
   flex: 1 1 1;
+  padding-bottom: 2%;
+  margin-bottom: 20%;
+  border-radius: 25px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.actimagez5, .actimagez2 {
+
+  align-self: flex-end;
 
 }
 
-.actimagez1 , actimagez4{
+.actimagez1 , .actimagez4{
   width: 330px;
   height: 400px;
   flex: 1 1 1;
+  padding-bottom: 2%;
+  margin-bottom: 20%;
+  border-radius: 25px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.19);
+
 }
 
+.activities > div {
+
+  margin-left: 1%;
+  margin-right: 1%;
+  
+  
+
+}
 
 .activities img{
 
 width: 100%;
-height:auto;
+height: 80%;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+
 
 
 }
@@ -440,14 +472,13 @@ height:auto;
 
 }
 
-.activities img {
 
-  border-radius: 25px;
-
-}
 
 .descact{
   font-weight: bold;
+  text-align: center;
+  height: 10%;
+  padding-top: 10px;
 }
 
 
@@ -500,6 +531,7 @@ height:auto;
   display: inline;
   justify-content: space-around;
   flex: 1 1 1;
+  font-size: 1.2rem;
 
 
 
@@ -524,7 +556,6 @@ li {
 height: 200px;
 display: inline-block;
 width: 400px;
-font-size: 0.8em;
 overflow-wrap: normal;
 flex: 1 1 1;
 
@@ -535,7 +566,6 @@ flex: 1 1 1;
   height: 200px;
   display: inline-block;
   width: 400px;
-  font-size: 0.8em;
 
 }
 
@@ -545,7 +575,6 @@ flex: 1 1 1;
   height: 200px;
   display: inline-block;
   width: 400px;
-  font-size: 0.8em;
   
 }
 
