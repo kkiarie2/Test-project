@@ -6,9 +6,9 @@
         <title>  Reservia  </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/5adc476f20.js" crossorigin="anonymous"></script>
         
       </head>
@@ -31,10 +31,10 @@
               <div><a href="#"><img class="logopic" src="img/logo/Reservia@3x.png" alt="Reservia logo"></a></div>
         
               
-              <div class="sign"><a  href="#">Sign-up</a></div>
+              
               <div  class="acc"><a href="#accommodation">Accommodation</a></div>
               <div  class="acts"><a href="#Activities">Activities</a></div>
-              
+              <div class="sign"><a  href="#">Sign-up</a></div>
 
             
           </div>
@@ -71,14 +71,14 @@
 
                 <button type="button" class="filterb">
 
-                  <span class="bticon"> <i class="fas fa-money-bill-wave"></i></span>
+                  <span class="fbticon"> <i class="fas fa-money-bill-wave"></i></span>
                   <span class="fbuttontext">Low cost</span>
 
                 </button>
                     
                 <button type="button" class="filterb">
 
-                  <span class="bticon"><i class="fas fa-child"></i></span>
+                  <span class="fbticon"><i class="fas fa-child"></i></span>
                   <span class="fbuttontext">family-friendly</span>
 
 
@@ -86,7 +86,7 @@
 
                 <button type="button" class="filterb">
 
-                  <span class="bticon"><i class="fas fa-dog"></i></span>
+                  <span class="fbticon"><i class="fas fa-dog"></i></span>
                   <span class="fbuttontext">pets allowed</span>
 
 
@@ -95,7 +95,7 @@
                 <button type="button" class="filterb">
 
 
-                  <span class="bticon"><i class="fas fa-heart"></i></span>
+                  <span class="fbticon"><i class="fas fa-heart"></i></span>
                   <span class="fbuttontext">romantic</span>
 
                 </button>
@@ -110,7 +110,7 @@
 
             <div class="moreicon"><p>
 
-              <span><span><i  class="fas fa-info-circle"></i></span> More than 500 accommodations are available in this city</span>
+              <span><span class="moreinfo"><i  class="fas fa-info-circle"></i></span> More than 500 accommodations are available in this city</span>
             </p>
                     </div>
           </div>
@@ -124,7 +124,7 @@
 
             <div class="marseille">
 
-              <h2 class="actmar"><a id="accommodation">Accommodation in Marseille</a></h2>
+              <div class="accmar"><a id="accommodation">Accommodation in Marseille</a></div>
 
               <div class="imagez">
                 <div class="marseilleimg"><a target="_blank" href="#">
@@ -133,8 +133,8 @@
                 <div class="desc">
                     <p class="hotel"><a target="_blank" href="#">Auberge la Cannebiere</a></p>
                 
-                <p>Nights starting at 25€</p>
-                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                <p class="price">Nights starting at <span class="money">25€</span> </p>
+                <p ><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                     class="fas fa-star"></i><i class="far fa-star"></i></p>
               </div>
               </div>
@@ -150,7 +150,7 @@
                 <div class="desc">
                   <p class="hotel"><a target="_blank" href="#">Hotel du port</a></p>
               
-              <p>Nights starting at 52€</p>
+              <p class="price">Nights starting at <span class="money">52€</span></p>
               <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                   class="fas fa-star"></i><i class="fas fa-star"></i></p>
                 </div>
@@ -164,7 +164,7 @@
                     </div>
                       <div class="desc">
                         <p class="hotel"><a target="_blank" href="#">Les mouettes Hotel</a></p>
-                      <p>Nights starting at 76€</p>
+                      <p class="price">Nights starting at <span class="money">76€</span></p>
                       <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                         class="fas fa-star"></i><i class="far fa-star"></i></p>
                   </div>
@@ -178,7 +178,7 @@
                 <div class="desc">
                     <a target="_blank" href="#"><p class="hotel">Hotel de la mer</p></a>
                       
-                        <p>Nights starting at 46€</p>
+                        <p class="price">Nights starting at <span class="money">46€</span></p>
                         <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i
                         class="far fa-star"></i></p>
                   </div>
@@ -193,7 +193,7 @@
                     </div>                  
                   <div class="desc">
                         <p class="hotel"><a target="_blank" href="#">Auberge Le panier</a></p>
-                    <p>Nights starting at 23€</p>
+                    <p class="price">Nights starting at <span class="money">23€</span> </p>
                     <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                         class="far fa-star"></i></p>
                   </div>
@@ -209,7 +209,7 @@
                   </div>
                     <div class="desc">
                       <p class="hotel"><a target="_blank" href="#">Hotel chez Amina</a></p>
-                  <p>Nights starting at 96€</p>
+                  <p class="price">Nights starting at <span class="money">96€</span></p>
                   <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                       class="fas fa-star"></i></p>
                 </div>
@@ -227,7 +227,7 @@
 
 
                     <div class="popheadings"> 
-                        <h2>Most Popular <span> <i id="popheadingsicon" class="fas fa-chart-line"></i></span></h2>
+                        <span><span>Most Popular</span> <span> <i id="popheadingsicon" class="fas fa-chart-line"></i></span></span>
                       </div>
 
 
@@ -235,18 +235,17 @@
                       <img id="imagesp1" src="img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Picture of a hotel room"></a>
                       </div><div class="descpop">
                           <p class="hotel"><a target="_blank" href="#">Morning Sun Hotel</a></p>
-                      <p>Nights starting at 128€</p>
+                      <p class="price">Nights starting at <span class="money">128€</span></p>
                       <p class="starsp"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                           class="fas fa-star"></i></p>
                     </div>
                   </div>
 
-
                   <div class="imagezp"><div class="popinside"><a target="_blank" href="#">
                     <img src="img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Picture of a hotel room"></a>
                     </div><div class="descpop">
                         <p class="hotel"><a target="_blank" href="#">Au cœur de l'eau Bed and Breakfast</a></p>
-                    <p>Nights starting at 71€</p>
+                    <p class="price">Nights starting at <span class="money">71€</span></p>
                     <p class="starsp"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                         class="far fa-star"></i></p>
                   </div>
@@ -260,7 +259,7 @@
                     <img src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Picture of a hotel room"></a></div>
                       <div class="descpop">
                         <p class="hotel"><a target="_blank" href="#">Tout bleu et Blanc Hotel</a></p>
-                    <p>Nights starting at 68€</p>
+                    <p class="price">Nights starting at <span class="money">68€</span> </p>
                     <p class="starsp"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                         class="far fa-star"></i></p>
                     </div>
