@@ -6,7 +6,7 @@ body {  font-family: 'Raleway', sans-serif;}
 
   position: relative;
   min-height: 100vh;
-  font-family: 'Raleway' sans-serif; 
+  font-family: 'Raleway', sans-serif; 
   margin-right: 5px;
   display: flex;
   flex-direction: column;
@@ -56,7 +56,7 @@ a:visited {
   position: absolute;
   top: 0;
   list-style-type: none;
-  font-size: 25px;
+  font-size: 22px;
   flex-direction: row;
   justify-content: right;
   padding: 5px 10px 0px 10px;
@@ -97,7 +97,7 @@ margin-right: 10px;
 .sign {
 margin-right: 10px;
 margin-left: 20px;
-font-weight: bold;
+font-weight: 600;
 }
 
 .acts {
@@ -640,7 +640,7 @@ font-weight: 600;
   padding-bottom: 0px;
   padding-left: 5%;
   font-weight: 700;
-  font: 0.8rem;
+  font-size: 0.8rem;
   color: #111;
   align-content: center;
   text-align: left;
@@ -1134,20 +1134,47 @@ order: 1;
       
 
     .acc , .acts a:active{
-    text-decoration: underline 5px #0065FC;
+    text-decoration: solid underline #0065FC 5px;
     }
     
-
+    .filters {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+    }
 
     .allfilterb{
 
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
       margin-bottom: 10px;
       justify-content: space-around;
       row-gap: 10px;
 
+    }
+
+    .filtertext {
+      width: 100%;
+      margin-bottom: 20px;
+      
+    }
+
+
+
+    .filterb {
+    
+      justify-self: flex-start;
+      margin-left: 0px;
+    
+    }
+
+    .searchbutton {
+
+      width: 85%;
+      margin-left: 20px;
     }
 
     .searchbuttontext {
@@ -1161,9 +1188,20 @@ order: 1;
 
     #hiddenicon {
       display: inline-block;
-      background-color: #0065FC;
       text-align: center;
 
+    }
+
+
+    ::placeholder {
+
+      padding:0px 5px;
+    }
+
+
+    .mapicon{
+      padding:0 5%;
+    
     }
 
   .accommodation {
