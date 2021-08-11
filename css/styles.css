@@ -1,4 +1,12 @@
-body {  font-family: 'Raleway', sans-serif;}
+body {  
+  font-family: 'Raleway', sans-serif;
+  margin: 0 1%;
+  display: flex;
+  width: auto;
+  justify-self: center;
+
+  
+}
 
 
 
@@ -6,8 +14,7 @@ body {  font-family: 'Raleway', sans-serif;}
 
   position: relative;
   min-height: 100vh;
-  font-family: 'Raleway', sans-serif; 
-  margin-right: 5px;
+  font-family: 'Raleway', sans-serif;
   display: flex;
   flex-direction: column;
 
@@ -16,8 +23,9 @@ body {  font-family: 'Raleway', sans-serif;}
 
 .contentwrap {
   display: flex;
+  position: relative;
   flex-direction: column;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   padding-top: 150px;
   
   /*header and footer */
@@ -53,7 +61,7 @@ a:visited {
 .header {
   
   display: flex;
-  width: 100%;
+  width: 98%;
   height: 150px;
   position: absolute;
   top: 0;
@@ -61,8 +69,7 @@ a:visited {
   font-size: 22px;
   flex-direction: row;
   justify-content: right;
-  padding: 5px 10px 0px 10px;
-  margin-right: 2%;
+  padding: 10px 10px 0 0;
 
 }
 
@@ -70,7 +77,7 @@ a:visited {
 
 .logopic {
 
-  height: 60px;
+  height: 40px;
   display: flex;
  
 
@@ -133,12 +140,13 @@ margin-right: 10px;
   margin-right: 10px;
   margin-left: 20px;
   font-weight: 600;
-  color: #0065FC;
   }
 
-.sign a {
+.sign a:link{
   color: #0065FC; 
+  
 }
+
 .filters {
   display: flex;
   align-items: center;
@@ -212,12 +220,14 @@ margin-right: 10px;
 }
 
 
+.search {
+  width: 98%;
+}
+
 .searchdiv {
   display: flex;
   font-weight: bold;
   
-
-
 }
 
 .find {
@@ -324,8 +334,9 @@ margin: 2% 0 2% 0;
 }
 
 .allcontent {
-
-  width: 100%;
+  position: relative;
+  width: 98%;
+  margin-bottom: 2%;
 }
 
 .accommodationarticle {
@@ -710,10 +721,10 @@ font-weight: 600;
 .footercontainer {
   display: flex;
   background-color: #EEE;
-  height: 200px;
+  height: 150px;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 98%;
   list-style-type: none;
   margin-top: 20px;
 
@@ -723,7 +734,7 @@ font-weight: 600;
   display: flex;
   flex-direction: row;
   width: 90%;
-  height: 200px;
+  height: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
   font-size: 0.8rem;
@@ -749,7 +760,7 @@ li {
 }
 
 .left{
-height: 200px;
+height: 100%;
 display: inline-block;
 width: 30%;
 overflow-wrap: normal;
@@ -759,7 +770,7 @@ overflow-wrap: normal;
 
 .middle{
 
-  height: 200px;
+  height: 100%;
   display: inline-block;
   width: 30%;;
 
@@ -768,7 +779,7 @@ overflow-wrap: normal;
 
 .assistance{
 
-  height: 200px;
+  height: 100%;
   display: inline-block;
   width: 30%;;
   
@@ -873,6 +884,9 @@ overflow-wrap: normal;
   }
 
 
+  .mapicon {
+    padding: 2px 10px;
+  }
 
 
   .accommodation {
@@ -908,6 +922,15 @@ overflow-wrap: normal;
     
   }
 
+
+  .marseillesection {
+    
+    width: 100%;
+  } 
+  .popularsection {
+    
+    width: 100%;
+  } 
 
   .popular {
 
@@ -1209,6 +1232,11 @@ order: 1;
     
     }
 
+
+    .search {
+
+      margin-left: 2%;
+    }
     .searchbutton {
 
       width: 85%;
@@ -1251,6 +1279,15 @@ order: 1;
 
   }
 
+  .marseillesection {
+    
+    width: 100%;
+  } 
+  .popularsection {
+    
+    width: 100%;
+  } 
+
   .popular {
     
     width: 100%;
@@ -1260,7 +1297,7 @@ order: 1;
 
 
   }
-
+  
   
 
   .imagezp{
@@ -1598,6 +1635,11 @@ order: 1;
     flex-direction: column;
   }
 
+
+  .popularsection {
+    
+    width: 100%;
+}  
   .popular {
     width: 100%;
     border-radius: 0px;
@@ -1649,6 +1691,11 @@ order: 1;
     font-size: 1rem;
   }
 
+
+  .marseillesection {
+    
+    width: 100%;
+  }  
   .marseille {
 
     width: 100%;
