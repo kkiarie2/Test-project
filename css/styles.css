@@ -23,6 +23,8 @@ body {  font-family: 'Raleway', sans-serif;}
   /*header and footer */
 }
 
+
+
 a:link {
 
   color: #111;
@@ -94,11 +96,7 @@ margin-right: 10px;
 }
 
 
-.sign {
-margin-right: 10px;
-margin-left: 20px;
-font-weight: 600;
-}
+
 
 .acts {
 
@@ -131,7 +129,16 @@ font-weight: 600;
   color: hotpink;
 
 }
+.sign {
+  margin-right: 10px;
+  margin-left: 20px;
+  font-weight: 600;
+  color: #0065FC;
+  }
 
+.sign a {
+  color: #0065FC; 
+}
 .filters {
   display: flex;
   align-items: center;
@@ -316,7 +323,25 @@ margin: 2% 0 2% 0;
   
 }
 
+.allcontent {
 
+  width: 100%;
+}
+
+.accommodationarticle {
+  display:flex;
+  width: 100%;
+}
+
+.marseillesection {
+  display: flex;
+  width: 70%;
+}
+
+.popularsection {
+  display: flex;
+  width: 30%;
+}
 
 .accommodation {
   display: flex;
@@ -331,7 +356,6 @@ margin: 2% 0 2% 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 70%;
   padding-top: 30px;
   padding-bottom: 50px;
   background-color: #EEE;
@@ -430,7 +454,6 @@ margin: 2% 0 2% 0;
   display: flex;
   flex-direction: column;
   background-color: #eee;
-  width: 30%;
   padding-bottom: 30px;
   padding-top: 30px;
   height: auto;
@@ -564,6 +587,19 @@ font-weight: 600;
 
 
 
+
+
+.activitiesarticle {
+  
+  width: 100%;
+}
+
+.activitiesheading {
+  width: 100%;
+  display: block;
+}
+
+
 .headingact {
   display: flex;
   display: block;
@@ -578,9 +614,11 @@ font-weight: 600;
 
 }
 
+.activitiessection {
 
+  width: 100%;
 
-
+}
 
 .activities {
   display: flex;
