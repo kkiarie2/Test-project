@@ -1267,11 +1267,12 @@ overflow-wrap: normal;
     .allfilterb{
 
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       flex-wrap: wrap;
       margin-bottom: 10px;
       justify-content: space-around;
       row-gap: 10px;
+      
 
     }
 
@@ -1286,7 +1287,10 @@ overflow-wrap: normal;
     .filterb {
     
       justify-self: flex-start;
-      margin-left: 0px;
+      margin-left: 0;
+      margin-right: 2%;
+      width: fit-content;
+      
     
     }
 
@@ -1361,7 +1365,7 @@ overflow-wrap: normal;
 
   .imagezp{
 
-    width: 95%;
+    width: 90%;
     height: 120px;
     display: flex;
     flex-direction: row;
