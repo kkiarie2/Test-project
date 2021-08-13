@@ -26,7 +26,7 @@ body {
   position: relative;
   flex-direction: column;
   padding-bottom: 150px;
-  padding-top: 150px;
+  padding-top: 50px;
   
   /*header and footer */
 }
@@ -1585,20 +1585,23 @@ overflow-wrap: normal;
 
 
 .pagecontainer {
-  width: 100%;
+  width: 98%;
   
   
+  }
 
 
-}
  .contentwrap {
    width: 100%;
    height: auto;
    min-height: 100vh;
    padding-bottom: 0px;
+   
  }
 
-
+ .headernew {
+   width: 98%;
+ }
 
   .header {
   
@@ -1655,6 +1658,13 @@ overflow-wrap: normal;
     text-decoration: underline #0065FC;
   }
 
+  .search{
+    height: auto;
+    width: 98%;
+    padding-top: 10px;
+       
+  }
+
 
   .find {
     font-weight: 800;
@@ -1676,7 +1686,7 @@ overflow-wrap: normal;
 
   .search{
     height: auto;
-    width: 100%;
+    width: 98%;
     padding-top: 10px;
        
   }
@@ -1688,6 +1698,10 @@ overflow-wrap: normal;
     justify-self: flex-start;
     text-align: left;
     margin-right: auto;
+  }
+
+  .allcontent {
+    width: 98%;
   }
 
   .accommodation {
@@ -1726,7 +1740,7 @@ overflow-wrap: normal;
 
   .popular .imagezp {
 
-    width: 95%;
+    width: 90%;
     height: 120px;
     border-radius: 20px;
   }
@@ -1771,7 +1785,7 @@ overflow-wrap: normal;
 
   .marseille .imagez {
 
-    width: 95%;
+    width: 90%;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
