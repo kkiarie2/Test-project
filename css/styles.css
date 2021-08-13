@@ -491,11 +491,15 @@ margin-right: auto;
   justify-content: flex-start;
   padding: 0 5%;
   margin: 0;
+  align-content: center;
+  align-items: center;
 }
 
 .popheadings .popularheading {
-justify-content: left;
-margin-right: auto;
+  justify-content: left;
+  margin-right: auto;
+  align-content: center;
+  align-items: center;
 
 }
 
@@ -503,6 +507,7 @@ margin-right: auto;
   
   margin-left: auto;
   text-align: right;
+  align-items: center;
 
 
 
