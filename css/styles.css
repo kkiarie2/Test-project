@@ -505,6 +505,7 @@ margin-right: auto;
   text-align: right;
 
 
+
 }
 
 
@@ -793,9 +794,17 @@ overflow-wrap: normal;
 
 @media screen and (max-width: 768px) {
 
-
+  .body {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+  
+  }
   .pagecontainer {
-    width: 100%;
+    display: flex;
+    justify-content: center;
 
 
 
@@ -806,11 +815,10 @@ overflow-wrap: normal;
     height: auto;
     padding-bottom: 10px;
     padding-top: 150px;
-    margin-right: 1%;
-    margin-right: 1%;
     min-height: 100vh;
     position: relative;
     bottom: 0;
+    justify-content: center;
 
 
   }
@@ -821,7 +829,7 @@ overflow-wrap: normal;
     font: 25px;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 98%;
 
 
 
@@ -883,11 +891,51 @@ overflow-wrap: normal;
     text-decoration: underline #0065FC;
   }
 
+  .search {
+    width: 100%;
+  }
+
+
+  .filters {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .filter > div {
+
+    width: 100%;
+
+  }
+
+
+  .filters .filtertext {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: auto;
+  }
+
+
+  .filters .allfilterb {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    justify-content: left;
+  }
+
 
   .mapicon {
     padding: 2px 10px;
+    width: 15%;
   }
 
+
+  .allcontent {
+    width: 98%;
+  } 
 
   .accommodation {
 
@@ -925,11 +973,11 @@ overflow-wrap: normal;
 
   .marseillesection {
     
-    width: 100%;
+    width: 98%;
   } 
   .popularsection {
     
-    width: 100%;
+    width: 98%;
   } 
 
   .popular {
@@ -984,18 +1032,21 @@ overflow-wrap: normal;
   
 
   }
-  .activities>div {
+  /* .activities>div {
     
     margin-left: 0px;
-}
+} */
+
+
+
 
   .col:nth-child(2) {
 
-width: 100%;
-height: auto;
-display: flex;
-flex-direction: row;
-order: 1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    order: 1;
 
 
 
@@ -1017,18 +1068,18 @@ order: 1;
  
 
   .activities .actimagez { 
-    width: 45%;
+    width: 44%;
     height:250px;
     display: flex;
     flex-direction: column;
-    margin: 0 2% 5%;
+    margin: 0 1% 5%;
   }
 
   
   .activities .actimagez1 { 
-    width: 45%;
+    width: 46%;
     height:250px;
-    margin: 0 2% 5%;
+    margin: 0 1% 5%;
   }
 
 
@@ -1074,17 +1125,24 @@ order: 1;
 
   }
 
-  
+  .footernew {
+
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
   
 
 
   .footercontainer {
 
-    display: block;
+    display: flex;
     position: relative;
     bottom: 0;
     height: auto;
-    width: 100%;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
 
 
 
@@ -1282,17 +1340,18 @@ order: 1;
   .marseillesection {
     
     width: 100%;
+    order: 2;
   } 
   .popularsection {
     
     width: 100%;
+    order: 1;
   } 
 
   .popular {
     
     width: 100%;
     height: auto;
-    order: 1;
     border-radius: 0;
 
 
@@ -1368,7 +1427,6 @@ order: 1;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    order: 2;
     border-radius: 0;
     background-color: white;
 
