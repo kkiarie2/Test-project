@@ -339,11 +339,15 @@ margin: 2% 0 2% 0;
   margin-bottom: 2%;
 }
 
+
+
 .accommodationarticle {
   display:flex;
   width: 100%;
 }
-
+.hiddenheading {
+  display: none;
+}
 .marseillesection {
   display: flex;
   width: 70%;
